@@ -1,0 +1,35 @@
+body {
+    background-color: #A42832;
+    color: white;
+}
+
+.whole-page {
+    max-width: 900px;
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.form-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.form-area {
+    margin: auto;
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+}
