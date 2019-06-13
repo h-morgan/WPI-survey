@@ -26,9 +26,9 @@ img {
 
 .form-area {
     margin: auto;
-    max-width: 700px;
+    max-width: 750px;
     background-color: white;
-    padding: 30px;
+    padding: 50px;
     color: black;
     border-radius: 20px;
     font-size: 20px;
@@ -39,8 +39,41 @@ img {
     align-items: center;
 }
 
-.form-check {
-    text-align: left;
-    padding-left: 50px;
+
+.enroll-container {
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
+.radio {
+    padding-left: 115px;
+
+}
+
+.learn-container {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+.text-input {
+    max-width: 500px;
+    margin: auto;
+}
+
+.submit-container {
+    max-width: 130px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+#submit {
+    width: 100%;
+}

@@ -317,31 +317,85 @@
             </div>
 
             <!-- Enrollment status -->
+
             <div class="form-row">
-                <label class="col col-form-label col-sm-4 text-right">Enrollment status: </label>
+                <label class="col col-form-label">Select your enrollment status: </label>
             </div>
-                <div class="form-check">
+            <div class="enroll-container">
+                <div class="form-check radio">
                     <input class="form-check-input" type="radio" name="status" id="full-time">
                     <label class="form-check-label" for="full-time">Full-time student</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check radio">
                         <input class="form-check-input" type="radio" name="status" id="part-time">
                         <label class="form-check-label" for="part-time">Part-time student</label>
                 </div>
+            </div>
 
             <!-- Interested in learning more -->
-                <div class="form-row">
-                        <label class="col col-form-label col-sm-4 text-right">Interested in: </label>
-                    </div>
-                        <div class="form-check">
+                <div class="form-row learn-more">
+                        <label class="col col-form-label col-sm-8">Interested in (select all that apply): </label>
+                </div>
+
+                <div class="learn-container">
+                     <div class="row">  
+                        <div class="form-check col">
                             <input class="form-check-input" type="checkbox" value="1" id="co-op">
                             <label class="form-check-label" for="co-op">Co-op programs</label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check col">
                                 <input class="form-check-input" type="checkbox" value="2" id="Internship">
-                                <label class="form-check-label" for="Internship">Internship Opportunities</label>
+                                <label class="form-check-label" for="Internship">Internship opportunities</label>
                         </div>
+                     </div>
 
+                     <div class="row"> 
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="3" id="BSMS">
+                                <label class="form-check-label" for="BSMS">BS/MS program</label>
+                        </div>
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="4" id="projects">
+                                <label class="form-check-label" for="projects">Off-campus projectss</label>
+                        </div>
+                     </div>
+
+                     <div class="row"> 
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="5" id="clubs">
+                                <label class="form-check-label" for="clubs">Clubs & organizations</label>
+                        </div>
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="6" id="research">
+                                <label class="form-check-label" for="research">Research</label>
+                        </div>
+                     </div>
+
+                     <div class="row"> 
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="7" id="leadership">
+                                <label class="form-check-label" for="leadership">Leadership opportunities</label>
+                        </div>
+                        <div class="form-check col">
+                                <input class="form-check-input" type="checkbox" value="8" id="greek">
+                                <label class="form-check-label" for="greek">Greek life</label>
+                        </div>
+                        
+                     </div>
+                </div>
+
+                <!-- Share any additional thoughts -->
+                <div class="form-group form-row">
+                        <label class="col" for="extra">Please share any additional information or thoughts about your WPI experience: </label>
+                </div>
+                <div class="form-row text-input">
+                    <textarea class="col form-control" id="extra" placeholder="Enter additional information here" maxlength="500" rows="5"></textarea>
+                </div>
+
+                <!-- Submit -->
+                <div class="submit-container">
+                    <button id="submit" type="submit" class="btn btn-secondary">Submit</button>
+                </div>
 
         </form>
 
