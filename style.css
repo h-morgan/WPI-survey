@@ -88,12 +88,15 @@ Media Queries*/
     }
 }
 
+@media screen and (max-width: 576px) {
+    .col-form-label {
+        text-align: left !important;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
-    .form-row {
-        background-color: red;
 
-    }
 
     .radio {
         padding-left: 30px;
