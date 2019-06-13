@@ -41,7 +41,7 @@ img {
 
 
 .enroll-container {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -76,4 +76,30 @@ textarea {
 
 #submit {
     width: 100%;
+}
+
+/* ================================================================== 
+Media Queries*/
+
+@media screen and (max-width: 772px) {
+
+    .checkbox-mobile {
+        padding-left: 120px
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .form-row {
+        background-color: red;
+
+    }
+
+    .radio {
+        padding-left: 30px;
+    }
+
+    .checkbox-mobile {
+        padding-left: 30px;
+    }
 }
