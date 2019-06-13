@@ -101,6 +101,10 @@ Media Queries*/
         max-width: 75px;
         max-height: 75px;
     }
+
+    .form-area {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
