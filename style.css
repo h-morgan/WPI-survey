@@ -92,6 +92,15 @@ Media Queries*/
     .col-form-label {
         text-align: left !important;
     }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    img {
+        max-width: 75px;
+        max-height: 75px;
+    }
 }
 
 @media screen and (max-width: 500px) {
